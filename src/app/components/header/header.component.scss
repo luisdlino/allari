@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16px;
+
+  img {
+    height: 50px;
+    margin-right: 85px;
+    padding-top: 18px;
+    width: 50px;
+  }
+
+  .clock {
+    font-family: 'digital';
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 20px;
+    width: 150px;
+  }
+}

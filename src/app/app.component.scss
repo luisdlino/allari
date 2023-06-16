@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+  }
+}

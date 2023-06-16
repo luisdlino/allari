@@ -1,0 +1,28 @@
+
+<div class="carousel">
+  <ng-container *ngFor="let slide of slides; let i = index">
+    <img
+      *ngIf="i === currentSlide"
+      [src]="slide.src"
+      class="slide"
+      [@slideAnimation]="'fade'"
+    />
+  </ng-container>
+  <button class="control prev" (click)="onPreviousClick()">
+    <div>
+      <span class="arrow left"></span>
+    </div>
+  </button>
+  <button class="control next" (click)="onNextClick()">
+    <div>
+      <span class="arrow right"></span>
+    </div>
+  </button>
+  <div class="dots">
+    <ng-container *ngFor="let slide of slides; let i = index">
+      <button class="each" (click)="selectClick(i)">
+        <span [ngClass]="{'dot': true, 'active': currentSlide === i}" class="dot" ></span>
+      </button>
+    </ng-container>
+  </div>
+</div>
