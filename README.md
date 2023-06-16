@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Description
 
 Angular 14 application using SCSS, HTTP API call, Dependency Injection, Angular Animation, Ripple.
-Application displays the current time, Full name, Logo, Footer with image and link, Boxes with mouse position on the screen, Carousel, Button with Ripple effect, Description and List of X
+Application displays the current time, Full name, Logo, Footer with image and link, Boxes with mouse position on the screen, Carousel, Button with Ripple effect, Description and List of Citys.
 
 ## Development server
 
